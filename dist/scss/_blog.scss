@@ -1,0 +1,44 @@
+#blogsec {
+  .blogsec-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px;
+
+    .blogsec-main-1 {
+      background-color: white;
+      padding: 40px 25px;
+      line-height: 2rem;
+      box-shadow: 10px 10px 20px -10px rgb(160, 158, 158);
+
+      h5 {
+        font-size: 25px;
+        padding-bottom: 25px;
+      }
+
+      .date {
+        font-size: 14px;
+        padding-bottom: 25px;
+      }
+
+      p {
+        padding-bottom: 25px;
+      }
+      .pic {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        img {
+          width: 60px;
+          height: 60px;
+          border-radius: 90px;
+        }
+
+        .david {
+          font-size: 14px;
+          padding-top: 15px;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}

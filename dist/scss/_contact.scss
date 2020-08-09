@@ -1,0 +1,77 @@
+#contactsec {
+  padding: 0 50px 100px 50px;
+  .contactsec-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+    .contactsec-main-1 {
+      h5 {
+        font-size: 25px;
+        padding-bottom: 20px;
+      }
+      .contactsec-main-2 {
+        margin-right: -200px;
+
+        .name {
+          display: flex;
+          margin-right: -10px;
+
+          input[type="text"] {
+            border: none;
+            background-color: #fff;
+            outline: none;
+            float: left;
+            padding: 20px 15px;
+          }
+        }
+
+        input[type="email"],
+        input[type="text"] {
+          border: none;
+          background-color: #fff;
+          padding: 20px 15px;
+          width: 100%;
+          margin-bottom: 20px;
+          margin-right: 10px;
+          outline: none;
+        }
+
+        textarea {
+          border: none;
+          background-color: #fff;
+          padding: 15px 0 15px 15px;
+          margin-bottom: 20px;
+          outline: none;
+          width: 100%;
+          resize: vertical;
+          padding-bottom: 170px;
+        }
+
+        .btn {
+          color: #fff;
+          padding: 10px 20px;
+        }
+      }
+      .contact {
+        margin-left: 230px;
+      }
+      ul {
+        margin-left: 230px;
+        li {
+          background-color: #fff;
+          margin-bottom: 20px;
+          padding: 30px 15px;
+          line-height: 2rem;
+          width: 100%;
+
+          i {
+            padding-right: 10px;
+            margin-left: 10px;
+            color: seagreen;
+          }
+        }
+      }
+    }
+  }
+}

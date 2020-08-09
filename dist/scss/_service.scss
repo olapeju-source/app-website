@@ -1,0 +1,29 @@
+/* servicesec */
+
+#servicesec {
+  padding-bottom: 100px;
+  .servicesec-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+
+    .servicesec-main-1 {
+      text-align: center;
+      h5 {
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: rgb(66, 66, 66);
+      }
+
+      p {
+        line-height: 2rem;
+        color: rgb(122, 121, 121);
+      }
+
+      .fas {
+        color: rgb(67, 67, 206);
+      }
+    }
+  }
+}
